@@ -99,7 +99,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 40px;
     
 }
 
@@ -113,7 +113,7 @@ h1 {
 }
 
 .search {
-    width: 500px;
+    width: 650px;
     color: black;
     background-color: #fff;
     display: flex;
@@ -124,12 +124,13 @@ h1 {
 }
 ::placeholder {
     background-color: #fff;
-    font-weight: 400;
+    font-weight: 350;
+    letter-spacing: 1px;
 }
 
 .search input {
     width: 700px;
-    height: 65px;
+    height: 75px;
     font-size: 1.75rem;
     
     padding: 0px 0;
@@ -147,3 +148,229 @@ h1 {
     outline: none;
     
 }
+
+/* section three */
+.section-three {
+    margin-top: 50px;
+    padding: 0 45px;
+    height: 70vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sec3-one {
+    width: 592px;
+    height: 210px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+    justify-content:first baseline;
+}
+
+.sec3-one h1 {
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.32;
+    color: black;
+}
+
+.sec3-one p {
+    margin-bottom: 1.69rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.sec3-one .btn {
+    width: 45%;
+    height: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #E50914;
+    border: none;
+}
+
+.sec3-two img {
+    width: 480px;
+    height: 338px;
+}
+
+
+/* section four */
+.section-four {
+    width: 93%;
+    
+    margin-top: 50px;
+    padding-right: 1rem;
+    margin: 0 auto;
+    background-color: #221F1F;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec4-one img {
+    width: 481px;
+    height: 381px;
+    background-color: #221F1F;
+}
+
+.sec4-two {
+    width: 592px;
+    height: 283px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    vertical-align:top;
+    text-align: left center;
+    justify-content:first baseline;
+}
+
+
+
+.sec4-two h1 {
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.32;
+}
+
+.sec4-two p {
+    margin-bottom: 1.69rem;
+    font-size: 1rem;
+    font-weight: 350;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.sec4-two .btn-2 {
+    width: 35%;
+    height: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #E50914;
+    border: none;
+}
+
+/* section five */
+.section-five {
+    margin-top: 50px;
+    
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.section-five h1 {
+    color: #221F1F;
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+
+.sec5-img {
+    width: 960px;
+    height: 90%;
+    background-color: black;
+    display: flex;
+
+}
+.sec5-img .img-1 {
+    width: 320px;
+    height: 325px;
+    background-size: cover;
+    background-image: url(/assets/img/0622_9to5_ep2_Thumbnail_8_1x1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec5-img .img-1 i {
+    padding-top: 60px;
+    color: #fff;
+    width: 100px;
+    height: 90;
+    font-size: 10rem;
+}
+
+.sec5-img .img-1 h3 {
+    width: 240px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+
+.sec5-img .img-2 {
+    width: 320px;
+    height: 325px;
+    background-size: cover;
+    background-image: url(/assets/img/20201218_InclusionReportFilm_Thumbnail_5.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec5-img .img-2 i {
+    padding-top: 60px;
+    color: #fff;
+    width: 100px;
+    height: 90;
+    font-size: 10rem;
+    
+}
+
+.sec5-img .img-2 h3 {
+    padding: 30px;
+    color: #fff;
+    font-size: 1.55rem;
+    font-weight: 300;
+    
+}
+
+.sec5-img .img-3 {
+    width: 320px;
+    height: 325px;
+    background-size: cover;
+    background-image: url(/assets/img/netflix\ logo\ white.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sec5-img .img-3 i {
+    padding-right: ;
+    padding-top: 60px;
+    color: #fff;
+    width: 100px;
+    height: 90;
+    font-size: 10rem;
+    
+}
+
+.sec5-img .img-3 h3 {
+    padding: 30px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+
+
+
