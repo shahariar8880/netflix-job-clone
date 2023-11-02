@@ -497,6 +497,75 @@ h1 {
     color: #fff;
 }
 
+/* footer section */
+footer {
+    margin-top: 100px;
+    padding: 0 20px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+/* footer left */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-left .logo {
+    width: 163px;
+    height: 83px;
+}
+
+.footer .footer-left p {
+
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: .15rem;
+}
+
+/* footer right one */
+.footer-right {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right-1 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-right-1 h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-right-1 span {
+    color: red;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.footer-right-1 i {
+    font-size: 28px;
+}
+
+/* footer right two */
+.footer-right-2 {
+    font-size: small;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right-2 .span-1 {
+    color: #B4B4B4;
+    font-size: smaller;
+}
 
 
