@@ -97,10 +97,6 @@ nav {
 /* hero section  */
 
 .section-two {
-    
-    padding-left: 130px;
-    padding-right: 250px;
-    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -109,6 +105,8 @@ nav {
 }
 
 h1 {
+    padding-left: 143px;
+    padding-right: 118px;
     font-size: 2.63rem;
     font-weight: 900;
     margin-top: 90px;
@@ -118,13 +116,13 @@ h1 {
 }
 
 .search {
-    width: 650px;
+    width: 100%;
     color: black;
-    background-color: #fff;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 15px;
 }
 ::placeholder {
@@ -134,11 +132,10 @@ h1 {
 }
 
 .search input {
-    width: 700px;
+   
+    
     height: 75px;
     font-size: 1.75rem;
-    
-    padding: 0px 0;
     outline: none;
     border: none;
     
@@ -210,7 +207,6 @@ h1 {
 /* section four */
 .section-four {
     width: 93%;
-    
     margin-top: 50px;
     padding-right: 1rem;
     margin: 0 auto;
