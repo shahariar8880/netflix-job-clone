@@ -1,0 +1,47 @@
+@media (max-width : 600px){
+
+    .hero-sec {
+        height: 48vh;
+    }
+
+    .back-video {   
+        object-fit: cover;
+    }
+
+    nav {
+        height: 20%;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .nav-mbl {
+        display: block;
+    }
+
+    .nav-left { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-left .logo {
+        width: 122px;
+        height: 55px;
+    }
+
+    .nav-left p {
+        font-size: 0.75rem;
+        font-weight: 500;
+        gap: -10px;
+    }
+
+    .nav-mbl-2 {
+        display: block;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+}
